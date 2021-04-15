@@ -1,0 +1,9 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="Component tests" verbose="2">
+    <test name="E2E tests" preserve-order="true" enabled="true">
+        <!--        <parameter name="version" value=""/>-->
+        <classes>
+            <class name="tests.EmployeeTests"></class>
+        </classes>
+    </test>
+</suite>
